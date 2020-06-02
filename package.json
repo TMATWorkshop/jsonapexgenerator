@@ -70,7 +70,6 @@
     "start": "serve -s build -l 80",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
-   // "heroku-postbuild": "webpack -p"
   },
   "eslintConfig": {
     "extends": "react-app"
