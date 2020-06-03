@@ -40,6 +40,7 @@
     "jest-watch-typeahead": "0.4.2",
     "material-kit-react": "^1.9.0",
     "mini-css-extract-plugin": "0.9.0",
+    "nodemon": "^2.0.4",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.6.4",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -66,7 +67,7 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
-    "start-default": "node scripts/start.js",
+    "start-dev": "node scripts/start.js",
     "start": "serve -s build",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
